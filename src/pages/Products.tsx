@@ -1,7 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { products, Product } from '@/data/products';
+import { products } from '@/data/products';
+import { Product } from '@/context/CartContext';
 import ProductGrid from '@/components/products/ProductGrid';
 import ProductFilters from '@/components/products/ProductFilters';
 
